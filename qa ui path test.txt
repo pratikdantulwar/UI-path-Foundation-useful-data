@@ -1,0 +1,178 @@
+
+RPA final test qa
+
+https://amkcomputerconcepts.blogspot.com/p/uipath-certification.html
+
+https://jignesh2882.wordpress.com/2018/06/24/uipath-foundation-exam-questions-and-possible-answer/
+
+
+If a Click Image activity was created with an image of an icon, and meanwhile that icon becomes highlighted, will the activity still work?
+
+no, accuracy
+and yes, if the clipping region avoids the background of the icon.
+
+
+What does the Find Image activity return?
+
+
+What can be done when the Windows Remote Connection doesn’t allow sending hotkeys?
+-it should work if the Windows Remote Connection is in ‘full-screen’ mode.
+
+
+
+Which of the following activities can be used to select an item in drop down list, in Citrix? 
+
+
+What happens if Find Image doesn’t actually find the desired image?
+- An exception is thrown
+
+Can a Pick Branch activity be used alone?
+- no
+
+
+ 
+What is the EASIEST navigation method to be used in a form within Citrix?
+-By sending keyboard commands/hotkeys
+
+
+How can we make sure that an app is in a certain state in a Citrix environment?
+- By waiting for certain UI elements to appear or disappear and making decisions based on that.
+
+ 
+How do you reset a clipping region?
+
+
+
+What happens if you use the Excel Read Range activity to read a .xlsx file that is already opened?
+- It will read the document successfully.
+
+ 
+In order to loop through all the rows of a datatable, which activity should be used?
+- For Each Row
+
+What activity can you use to create a DataTable from an input string?
+- Generate Data Table
+
+What happens if the AddHeaders option is checked for Read Range Activity?
+- The first row from the specified range is considered to be the column names
+
+What is the best approach to filter data from a data table based on a condition?
+- 
+
+Can Excel related activities be used without having the Excel Application installed?
+- Yes and it works for every Excel file
+
+If you need to sort a table from an .xlsx file, what should you use?
+- 
+
+You need to read from an Excel sheet and you don’t know the range. What do you write in the “Range” property of the Read Range Activity?
+- Write an empty string
+
+What happens if you use the Write Range activity with the Range property set to “” to write a datatable to an excel file that already contains data?
+- It will overwrite the existing data.
+
+What activity can be used to read an entire sheet from a excel file?
+- Read Range
+
+If you need to sort a table from an .xlsx file, what should you use?
+- 
+
+
+
+If you want to get only filtered MailMessage variables, what activity should you use?
+- Get Outlook mail messages
+
+The Save Attachments activity can save all the attachments of an email to:
+- An absolute path.
+A relative path.
+
+
+
+What activities can you use to send an email message?
+- Send Outlook Mail Message.
+Send SMTP Mail Message.
+
+
+
+The Send Outlook Mail Message activity will work without having Microsoft Outlook installed:
+- False
+
+If you are using the For Each activity to loop through a list of MailMessage variables, what should you set the TypeArgument property to?
+- System.Net.Mail.MailMessage
+
+What activity can you use to send an email without entering the username and password of the email account?
+- Send Outlook Mail Message
+
+Which of the following properties are found in the Get Outlook Mail Messages activity?
+- Mail Folder
+
+Which Visual Basic property within the MailMessage class will you use to get the Date of an email?
+- Headers(“Date”)
+
+
+What is the supported variable type in the Output property field of all Get Mail activities (POP3, IMAP, Outlook, Exchange)?
+- List (MailMessage)
+
+
+If you need to stop the workflow until a UI Element has disappeared from the screen, what activity should you use?
+- Wait Element Vanish
+
+ 
+When you have more than one exception type defined in the Catch block, which block is executed?
+- The block with most specific match
+
+ 
+What happens if you put a Breakpoint on a Click activity and start the workflow in Debug mode?
+-	The workflow will be paused until you click the Continue button.
+
+What can you use to make sure that the execution continues even if an activity fails?
+- Try/Catch activity
+
+Where can you find more details about the following error that appears when loading a workflow: “Activity could not be loaded because of errors in the XAML”?
+- In Output pane
+
+How can you extract data from an invoked workflow?
+- 
+
+What is the recommended layout for a sequence of UI interactions?
+- Sequence
+
+What is the recommended layout to define business logic in a complex process automation?
+- flowchart
+
+
+When is it recommended to use nested If activities inside workflows?
+- You should avoid using nested If activities.
+
+Is notifying the user via a Message Box activity a good way to keep track of a workflow’s execution progress ?
+- No
+
+What is the recommended layout for sequential activities?
+- Sequence
+
+How should an RPA developer address runtime exceptions in the workflows?
+- By logging any exception events 
+By using automatic recovery sequences inside the Catch blocks. 
+By using Try/Catch blocks when invoking external workflow files
+
+
+What can you use to add more details about the process in the workflow itself?
+- 
+
+How can you trigger another workflow from within your current one?
+- By using the Invoke Workflow File activity.
+
+Is “Workflow2.xaml” a good name for a reusable workflow?
+- No
+
+Which of the following is a good example of a workflow name?
+- GetCustomerNumber.xaml
+
+What type of arguments can you use in a workflow?
+- Out 
+In/Out 
+In
+
+
+
+
